@@ -1,0 +1,8 @@
+The goal of my project is to address the following problem:
+
+Classify large European cities based on their ability to host a multisport university event consisting of Football, Tennis and Ice Hockey.
+
+Solution: Retrieve the list of largest European cities from Wikipedia and use Foursquare to get the numbers of Football, Hockey and Tennis stadiums near the city center. The use k-means clustering to split the cities to 4 groups based on results. Finally show the results on a map.
+
+Data sources used: 
+Wikipedia, Foursquare
